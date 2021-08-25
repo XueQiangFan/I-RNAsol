@@ -5,10 +5,10 @@ RNA solvent accessibility prediction using sequence-based multi-view context-awa
     - Linux system
     - python3.7
     - pytorch (version 1.3.1) (https://pytorch.org/)
-    - Infernal (https://toolkit.tuebingen.mpg.de/tools/hhblits)
-    - RNAfold (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
-    - LinearPartition (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
-    - nt (https://ftp.ncbi.nih.gov/blast/db/)  
+    - Infernal (eddylab.org/infernal/infernal-1.1.3-linux-intel-gcc.tar.gz)
+    - RNAfold (https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.18.tar.gz)
+    - LinearPartition (https://github.com/LinearFold/LinearPartition.git/)
+    - nt (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)  
     
 
 ## Installation:
@@ -42,6 +42,9 @@ Here, you will see one configuration files.
   RNAfold_EXE = /iobio/fxq/software/ViennaRNA-2.4.17/bin/RNAfold
   [LinearPartition]
   LinearPartition_EXE = /iobio/fxq/software/LinearPartition-master/linearpartition
+  
+  Note: Make sure there is enough space on the system as NCBI's nt database is of size around 270 GB after extraction and it can take couple of     hours to download depending on the internet speed. In case of any issue, please rerfer to https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
+
 ~~~
 
 ## Run I-RNAsol 

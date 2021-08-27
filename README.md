@@ -49,7 +49,7 @@ Note: Make sure there is enough space on the system as NCBI's nt database is of 
 ### run: python main.py -p RNA name -s RNA sequence -o result path
 ~~~
     For example:
-    python main.py -p 1f1t_A -s GGACCCGACGGCGAGAGCCAGGAACGAAGGACC -o ./
+    python main.py -n 1f1t_A -s GGACCCGACGGCGAGAGCCAGGAACGAAGGACC -o ./
 ~~~
 
 ## The RNA solvent accessibility result

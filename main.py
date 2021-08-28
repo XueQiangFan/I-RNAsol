@@ -28,7 +28,7 @@ def MAXASAValue(residue_type):
 
 def tester(nucle_name, result_dir):
     fa_path = os.path.join(result_dir, nucle_name+".fasta")
-    save_model = "./model/"
+    save_model = "./save_model/"
     model = BiLSTM_SE_Net()
     saved_model = save_model + 'MVCADNN'
     model.load_state_dict(torch.load(saved_model, map_location="cpu"))

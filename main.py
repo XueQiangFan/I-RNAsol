@@ -76,7 +76,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description="I-RNAsol Predicts RNA Solvent Accessibility")
     parser.add_argument("-n", "--nucle_name", required=True, type=str, help="nucleotide name")
-    parser.add_argument("-s", "--sequence", required=True, type=str, help="AA sequence ")
+    parser.add_argument("-s", "--sequence", required=True, type=str, help="RNA sequence ")
     parser.add_argument("-o", "--result_path", required=True, type=str, help="save result path")
     args = parser.parse_args()
     features_generation = FeaturesGeneration(args.nucle_name, args.sequence, args.result_path)

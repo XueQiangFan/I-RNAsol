@@ -15,7 +15,7 @@ RNA solvent accessibility prediction using sequence-based multi-view context-awa
 
 *Install and configure the softwares of python3.7, Pytorch, Infernal, RNAfold, LinearPartition, and nt in your Linux system. Please make sure that python3 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install xxx' command install the python revelant module. Here, "xxx" is one module name.
 
-*Download this repository at https://github.com/XueQiangFan/I-RNAsol (xx,xxxKB). Then, uncompress it and run the following command lines on Linux System.
+*Download this repository at https://github.com/XueQiangFan/I-RNAsol (80.1MB). Then, uncompress it and run the following command lines on Linux System.
 
 ~~~
   $ jar xvf I-RNAsol-main.zip

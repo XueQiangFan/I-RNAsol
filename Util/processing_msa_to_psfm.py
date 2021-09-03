@@ -34,16 +34,16 @@ class Processing_Aln_To_PSFM():
                          }
         return nucle_numeric[nucle_type]
 
-    @jit
+   # @jit
     def transform_Aln_to_numeric(self):
 
         with open(self.aln_path,"r") as fr:
             aln = fr.readlines()
         N = len(aln)
-        L = len(aln[0])
+        L = len(aln[0].strip())
         numeric_msa = np.zeros([N, L], dtype=int)
         for i in range(N):
-            aline = aln[i]
+            aline = aln[i].strip()
             for j in range(L):
                 numeric_msa[i, j] = self.__nucle_dict__(aline[j])
 
@@ -141,7 +141,7 @@ class Processing_MSA_To_PSFM():
                         hit_seq += line
                     line = f.readline()
                     key_word = line.strip().split(" ")[0]
-                print(hit_seq)
+               # print(hit_seq)
                 MSA.append(hit_seq)
         f.close()
         return MSA
@@ -158,7 +158,7 @@ class Processing_MSA_To_PSFM():
         with open(self.aln_path, "w") as fw:
             for i in range(len(non_redundant_MSA)):
                 fw.write(non_redundant_MSA[i].strip() + "\n")
-        print(non_redundant_MSA)
+       # print(non_redundant_MSA)
         return non_redundant_MSA
 
     @jit

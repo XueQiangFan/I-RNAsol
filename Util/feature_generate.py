@@ -8,7 +8,7 @@
 import os
 import numpy as np
 from configparser import ConfigParser
-from processing_msa_to_psfm import Processing_MSA_To_PSFM, Processing_Aln_To_PSFM
+from Util.processing_msa_to_psfm import Processing_MSA_To_PSFM, Processing_Aln_To_PSFM
 import warnings
 warnings.filterwarnings('ignore')
 config = ConfigParser()

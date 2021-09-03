@@ -114,7 +114,7 @@ class GEN_HTML:
         fw.write('''<tr><td>\n''')
         fw.write('''<hr><br/>\n''')
         fw.write('''<div style="position:relative;left:5px;"><table style="font-family:Arial;font-size:14px;"><tr><td colspan=2>Please cite the following article when you use the I-RNAsol server: RNA solvent accessibility prediction using sequence-based multi-view context-aware computing framework</td><tr>\n''')
-        fw.write('''<tr><td valign="top"></td><td> <li> Jun Hu, Xue-Qiang Fan, Ning-Xin Jia, Dong-Jun Yu, Gui-Jun Zhang</td></tr>\n''')
+        fw.write('''<tr><td valign="top"></td><td> <li> Jun Hu*, Xue-Qiang Fan, Ning-Xin Jia, Shi-Jian Dong, Dong-Jun Yu*, Gui-Jun Zhang* </td></tr>\n''')
         fw.write('''</table></div></td></tr>\n''')
         fw.write('''</table></body>\n''')
         fw.write('''</html>\n''')

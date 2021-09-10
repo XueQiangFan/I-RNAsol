@@ -62,4 +62,4 @@ First release 2021-08-25
 
 ## References
 
-[1] Jun Hu*, Xue-Qiang Fan, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. RNA solvent accessibility prediction using sequence-based multi-view context-aware computing framework. xxx. sumitted.
+[1] Jun Hu*, Xue-Qiang Fan, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. RNA solvent accessibility prediction using multi-view context-aware deep neural network. xxx. sumitted.

@@ -2,13 +2,13 @@
 RNA solvent accessibility prediction using sequence-based multi-view context-aware computing framework
 
 ## Pre-requisite:  
-    - Linux system
-    - python3.7
-   pytorch (version 1.3.1)[pytorch](https://pytorch.org/)
-    - Infernal (http://eddylab.org/infernal/infernal-1.1.3.tar.gz)
-    - RNAfold (https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.18.tar.gz)
-    - LinearPartition (https://github.com/LinearFold/LinearPartition.git/)
-    - nt (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)  
+   - Linux system
+   - python3.7
+   - pytorch version 1.3.1 [pytorch version 1.3.1](https://pytorch.org/)
+   - Infernal [](http://eddylab.org/infernal/infernal-1.1.3.tar.gz)
+   - RNAfold [](https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.18.tar.gz)
+   - LinearPartition [](https://github.com/LinearFold/LinearPartition.git/)
+   - nt [](ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)  
     
 
 ## Installation:

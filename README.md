@@ -1,5 +1,5 @@
 # I-RNAsol
-RNA solvent accessibility prediction using sequence-based multi-view context-aware computing framework
+RNA solvent accessibility prediction using multi-view context-aware deep neural network
 
 ## Pre-requisite:  
    - Linux system

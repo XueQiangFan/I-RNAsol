@@ -8,7 +8,7 @@ RNA solvent accessibility prediction using sequence-based multi-view context-awa
    - Infernal [infernal-1.1.3](http://eddylab.org/infernal/infernal-1.1.3.tar.gz)
    - RNAfold [ViennaRNA-2.4.18](https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.18.tar.gz)
    - LinearPartition [LinearPartition](https://github.com/LinearFold/LinearPartition.git/)
-   - nt [nt](ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)  
+   - nt [nt](https://ftp.ncbi.nih.gov/blast/db/)  
     
 
 ## Installation:
